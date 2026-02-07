@@ -1,0 +1,140 @@
+/* 🌌 Vibrant Galaxy Background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 20% 30%, #6d28d9, transparent 40%),
+              radial-gradient(circle at 80% 70%, #0ea5e9, transparent 40%),
+              radial-gradient(circle at 50% 50%, #ec4899, #0f172a 70%);
+  background-color: #0f172a;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* 🌠 Container */
+.container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+/* 🎨 Elegant Vibrant Heading */
+.title {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 800;
+  margin-bottom: 50px;
+  color: #facc15; /* Vibrant gold */
+
+  text-shadow:
+    0 4px 20px rgba(250, 204, 21, 0.6);
+}
+
+/* 🪐 Glass 3D Card */
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 35px;
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.form input,
+select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: none;
+  background: rgba(15, 23, 42, 0.8);
+  color: white;
+  font-size: 15px;
+}
+
+.form input:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 10px #38bdf8;
+}
+
+/* Primary Button */
+.btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #06b6d4, #8b5cf6);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Secondary Button */
+.btn-secondary {
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #f97316, #ef4444);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+}
+
+.button-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Attendance Box */
+.attendance-box {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* Error */
+.error {
+  background: rgba(239, 68, 68, 0.2);
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  color: #fca5a5;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 15px;
+  color: #e2e8f0;
+
+  width: 100%;
+  margin-top: 60px;
+
+  letter-spacing: 1px;
+  font-weight: 500;
+
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
