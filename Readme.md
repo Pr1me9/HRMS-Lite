@@ -1,4 +1,4 @@
-🌌 HRMS Lite – Employee & Attendance Manager
+**🌌 HRMS Lite – Employee & Attendance Manager**
 
 HRMS Lite is a streamlined full-stack web application designed to manage employee records and track attendance efficiently.
 The system is built using the MERN stack and deployed to production for real-world usability.
